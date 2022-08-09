@@ -7,3 +7,4 @@
 * v1.2.1 Algoritmo del perimetro de un rectángulo - selectivo.
 * v1.2.2 Algoritmo de la hipotenusa de un triángulo - selectivo.
 * v1.3.1 Algoritmo del perimetro de un rectángulo - repetitivo.
+* v1.3.2 Algoritmo de la hipotenusa de un triángulo - repetitivo.

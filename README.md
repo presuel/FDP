@@ -9,3 +9,4 @@
 * v1.3.1 Algoritmo del perimetro de un rectángulo - repetitivo.
 * v1.3.2 Algoritmo de la hipotenusa de un triángulo - repetitivo.
 * v1.4.1 Algoritmo del perimetro de un rectángulo - arreglos.
+* v1.4.2 Algoritmo de la hipotenusa de un triángulo - arreglos.

@@ -3,8 +3,16 @@ Algoritmo Hipotenusa
 	escribir "Calcular la hipotenusa de un triángulo rectángulo"
 	escribir "Lado A:"
 	leer ladoA
-	escribir "Lado B:"
-	leer ladoB
-	ladoC= rc(  ladoA * ladoA + ladoB * ladoB   )
-	escribir "Hipotenusa= ", ladoC
+	si ladoA > 0 Entonces
+		escribir "Lado B:"
+		leer ladoB
+		si ladoB > 0 Entonces
+			ladoC= rc(  ladoA * ladoA + ladoB * ladoB   )
+			escribir "Hipotenusa= ", ladoC
+		SiNo
+			escribir "Error en lado B"
+		FinSi		
+	SiNo
+		escribir "Error en lado A"
+	FinSi	
 FinAlgoritmo

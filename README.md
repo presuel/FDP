@@ -13,3 +13,4 @@
 * v1.5.1 Algoritmo del perimetro de un rectángulo - funciones.
 * v1.5.2 Algoritmo de la hipotenusa de un triángulo - funciones.
 ---
+* v2.1.1 Codigo en C++ del perimetro de un rectángulo - basico.

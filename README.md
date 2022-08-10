@@ -1,6 +1,6 @@
 ## Fundamentos de Programación
 #### Agosto de 2022
-
+---
 ##### Lista de cambios:
 * v1.1.1 Algoritmo del perimetro de un rectángulo - básico.
 * v1.1.2 Algoritmo de la hipotenusa de un triángulo - básico.
@@ -11,3 +11,5 @@
 * v1.4.1 Algoritmo del perimetro de un rectángulo - arreglos.
 * v1.4.2 Algoritmo de la hipotenusa de un triángulo - arreglos.
 * v1.5.1 Algoritmo del perimetro de un rectángulo - funciones.
+* v1.5.2 Algoritmo de la hipotenusa de un triángulo - funciones.
+---

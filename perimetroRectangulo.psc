@@ -1,3 +1,7 @@
+Funcion P <- calcPerimetro (A, B)
+	P= 2*A + 2*B
+FinFuncion
+
 Algoritmo perimetroRectangulo
 	Escribir "Calcular el perimetro de un rectangulo"		
 	Dimension Matriz[3,3] // Filas, columnas
@@ -11,9 +15,7 @@ Algoritmo perimetroRectangulo
 			leer ladoB
 			Matriz[i,2]= ladoB
 			si ladoB > 0 Entonces
-				perimetro= 2*ladoA + 2*ladoB
-				Matriz[i,3]= perimetro
-				Escribir "Perimetro= ", perimetro
+				Matriz[i,3]= calcPerimetro( ladoA, ladoB )
 			SiNo
 				escribir "Error en lado B"
 				Matriz[i,3]= -1

@@ -1,6 +1,11 @@
 import java.util.Scanner;
 
 public class hipotenusa {
+
+	public static double calcHipotenusa(double A, double B) {
+		return Math.sqrt(A * A + B * B);
+	}
+
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		//
@@ -17,7 +22,7 @@ public class hipotenusa {
 					System.out.println("Lado B:");
 					Matriz[i][1] = scan.nextDouble();
 					if (Matriz[i][1] > 0) {
-						Matriz[i][2] = Math.sqrt(Matriz[i][0] * Matriz[i][0] + Matriz[i][1] * Matriz[i][1]);
+						Matriz[i][2] = calcHipotenusa(Matriz[i][0], Matriz[i][1]);
 						System.out.println("Hipotenusa= " + Matriz[i][2]);
 					} else {
 						System.out.println("Error - Lado B incorrecto.\n");

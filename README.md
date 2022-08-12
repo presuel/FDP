@@ -19,5 +19,6 @@
 * v2.2.2 Codigo en Java de la hipotenusa de un triángulo - basico.
 ---
 * v3.1.1 Codigo en C++ del perimetro de un rectángulo - selectivo.
+* v3.1.2 Codigo en C++ de la hipotenusa de un triángulo - selectivo.
 
 ---

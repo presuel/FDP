@@ -8,10 +8,18 @@ int main(){
 	double ladoA, ladoB, ladoC;
 	cout << "Lado A: ";
 	cin >> ladoA;
-	cout << "Lado B: ";
-	cin >> ladoB;
-	ladoC= sqrt( ladoA*ladoA+ladoB*ladoB );
-	cout << "Hipotenusa= " << ladoC;   
+	if( ladoA > 0 ){
+		cout << "Lado B: ";
+		cin >> ladoB;
+		if( ladoB > 0 ){
+			ladoC= sqrt( ladoA*ladoA+ladoB*ladoB );
+			cout << "Hipotenusa= " << ladoC;   
+		}else{
+			cout << "Error en el lado B." << endl;
+		}
+	}else{
+		cout << "Error en el lado A." << endl;
+	}
 	//
     return 0;
 }

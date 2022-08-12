@@ -27,3 +27,5 @@
 * v3.4.1 Codigo en Java del perimetro de un rectángulo - repetitivo.
 * v3.4.2 Codigo en Java de la hipotenusa de un triángulo - repetitivo.
 ---
+* v4.1.1 Codigo en C++ del perimetro de un rectángulo - arreglos.
+---

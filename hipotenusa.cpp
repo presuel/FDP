@@ -2,6 +2,10 @@
 #include <cmath>	// Para sqrt
 using namespace std;
 
+double calcHipotenusa(double A, double B){
+	return sqrt(A*A + B*B);
+}
+
 int main(){
 	//
 	cout << "Calcular la hipotenusa de un triangulo rectangulo.\n";
@@ -17,14 +21,14 @@ int main(){
 				cout << "Lado B: ";
 				cin >> Matriz[i][1];
 				if( Matriz[i][1] > 0 ){
-					Matriz[i][2]= sqrt( Matriz[i][0]*Matriz[i][0]+Matriz[i][1]*Matriz[i][1] );
+					Matriz[i][2]= calcHipotenusa( Matriz[i][0], Matriz[i][1]);
 					cout << "Hipotenusa= " << Matriz[i][2] << "\n\n"; 
+					i++;
+					cout << "Para finalizar oprima 0, para continuar 1: ";
+					cin >> respuesta;
 				}else{
 					cout << "Error en el lado B.\n\n";
 				}
-				i++;
-				cout << "Para finalizar oprima 0, para continuar 1: ";
-				cin >> respuesta;
 			}else{
 				cout << "Error en el lado A.\n\n";
 			}

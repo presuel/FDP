@@ -1,6 +1,5 @@
 import java.util.Scanner;	// Para leer desde teclado
 
-// Ojo= el archivo debe llamarse igual que la clase.
 public class perimetro {
 	public static void main (String[] args){
 		Scanner scan= new Scanner(System.in);
@@ -9,10 +8,18 @@ public class perimetro {
 		double ladoA, ladoB, perimetro;
 		System.out.println("Lado A: ");
 		ladoA= scan.nextDouble();
-		System.out.println("Lado B: ");
-		ladoB= scan.nextDouble();
-		perimetro= 2*ladoA+2*ladoB;
-		System.out.println("Perimetro= " + perimetro);
+		if( ladoA > 0 ){
+			System.out.println("Lado B: ");
+			ladoB= scan.nextDouble();
+			if( ladoB > 0 ){
+				perimetro= 2*ladoA+2*ladoB;
+				System.out.println("Perimetro= " + perimetro);
+			}else{
+				System.out.println("Error en lado B.\n");
+			}
+		}else{
+			System.out.println("Error en lado A.\n");
+		}
 		//
 	}
 }
